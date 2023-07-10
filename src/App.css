@@ -1,0 +1,237 @@
+.app {
+  width: 100vw;
+  min-height: 100vh;
+  font-family: 'Gravitas One', cursive;
+  display: flex;
+  justify-content: center;
+  background-image: url(https://marketplace.canva.com/EAFTQEWI-Ko/1/0/1600w/canva-black-sky-galaxy-stars-desktop-wallpaper-iWMZ0xN6KXs.jpg);
+  
+  background-position: center;
+  
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  backdrop-filter: blur(2px);
+  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255);
+  padding: 0 1rem;
+  z-index: 2;
+}
+
+.nav-links {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 1rem;
+}
+
+.nav-links > * {
+  color: white;
+  background-color: transparent;
+}
+
+.search-bar-div {
+ margin-right: 2vmin;
+  display: flex;
+  flex-wrap: wrap;  
+  justify-content: center;
+  align-items: center;
+}
+
+.select-box,
+.search-text,
+.search-button {
+  flex: 1;  
+  height: 40px;
+  margin: 1rem;
+  padding: 10vmin;
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.select-box,
+.search-text,
+.search-button {
+  margin: 1vmin;
+  padding: 0;
+  padding: 1vmin;
+
+}
+
+main {
+  margin-top: 12vmin;
+   
+  margin-bottom: 2vmin;
+  background-size: cover;
+  background-position: center;
+}
+
+.collection-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 30vw);
+  gap: 2vmin;
+  text-decoration: none;
+ 
+ color: white;
+}
+
+.canvas-div{
+  width: 100vw;
+  height: 80vh;
+  z-index: 1;
+}
+
+.home-div {
+  margin: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+button {
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.hover-info {
+  display: none;
+}
+
+.planet-popup {
+  position: fixed;
+  left: 5vmin;
+  font-size: 7vmin;
+  color: #F7CB15
+}
+
+
+.collection-grid > * {
+  border: 0.3vmin solid rgb(255, 255, 255);
+  padding: 2vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  backdrop-filter: blur(5px); 
+  padding: 5vmin; 
+  box-shadow: 0 0 10px rgb(255, 255, 255); 
+}
+
+
+.div-title-text {
+  font-size: 4vmin;
+  margin: 0;
+  text-decoration: none;
+  
+}
+
+.detail-div {
+  margin-top: 2vmin;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50vw;
+  border: 0.4vmin solid white;
+  padding: 5vmin;
+  text-decoration: none;
+  backdrop-filter: blur(5px); 
+  box-shadow: 0 0 10px rgb(255, 255, 255); 
+}
+
+.detail-div > * {
+  margin: 1vmin;
+  text-decoration: none;
+}
+
+.detail-div-title-text {
+  font-size: 10vmin;
+  margin-top: 0;
+  margin-bottom: 5vmin;
+  align-self: center;
+  text-decoration: none;
+}
+
+.submit-comment-box {
+  width: 40vw;
+  margin: 3vmin;
+  padding: 3vmin;
+  border-top: 1px solid #F7CB15;
+  border-bottom: 1px solid #F7CB15;
+}
+
+.submit-comment-title,
+.comment-sender {
+  color: #F7CB15;
+}
+
+.submit-comment-title {
+  margin-bottom: 2vmin;
+  width: 40vw;
+  text-align: center;
+}
+
+.comments-div {
+  width: 40vw;
+}
+
+.planetImage, 
+.submit-comment-box,
+.comments-div {
+  align-self: center;
+}
+
+.single-comment {
+  margin: 2vmin;
+  padding: 2vmin;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-stuff {
+  margin-left: 5vmin;
+  margin-right: 5vmin;
+}
+
+.comment-stuff > * {
+  overflow-wrap: anywhere;
+}
+
+.edit-x-div {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.text-area-edit {
+  width: 100%;
+}
+
+.planetImage img
+{
+border-radius: 50%;
+height: Auto;
+max-width: 100%;
+}
+
